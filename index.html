@@ -1,11 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tic-Tac-Toe</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Limelight&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="min-h-screen flex justify-center bg-[#8e94f2]">
+    <!-- bg -->
+    <div class="rounded-xl shadow-lg text-center bg-[#dab6fc] w-80 m-8 p-3">
+      <h1
+        class="font-bold text-xl text-[#2c0735] mb-2 mt-3"
+        style="font-family: Limelight, sans-serif"
+      >
+        Tic-Tac-Toe
+      </h1>
+      <p class="text-sm text-[#2c0735] mb-6">Player X Turn</p>
+      <!-- boxes -->
+      <div class="grid grid-cols-3 gap-3 m-4 text-[#2c0735]">
+        <div class="h-20 w-20 rounded-xl border-2 hover:bg-[#2c0735]"></div>
+        <div class="h-20 w-20 rounded-xl border-2 hover:bg-[#2c0735]"></div>
+        <div class="h-20 w-20 rounded-xl border-2 hover:bg-[#2c0735]"></div>
+        <div class="h-20 w-20 rounded-xl border-2 hover:bg-[#2c0735]"></div>
+        <div class="h-20 w-20 rounded-xl border-2 hover:bg-[#2c0735]"></div>
+        <div class="h-20 w-20 rounded-xl border-2 hover:bg-[#2c0735]"></div>
+        <div class="h-20 w-20 rounded-xl border-2 hover:bg-[#2c0735]"></div>
+        <div class="h-20 w-20 rounded-xl border-2 hover:bg-[#2c0735]"></div>
+        <div class="h-20 w-20 rounded-xl border-2 hover:bg-[#2c0735]"></div>
+      </div>
+      <!-- restart button -->
+      <button class="bg-[#2c0735] text-[#f1f2f6] hover:bg-[#f7aef8] rounded-md px-4 py-2">
+        Restart
+      </button>
+    </div>
+  </body>
 </html>
